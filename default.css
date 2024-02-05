@@ -494,13 +494,18 @@ h6 { font-size: 16px;}
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 100px) {
     .main-container {
         width: 95%;
     }
 
     /* Add additional responsive styles here */
     .intro-wrapper {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        grid-template-rows: auto auto; /* Adjust as needed */
+    }
+
+    .Projects{
         grid-template-columns: 1fr; /* Change to a single column layout */
         grid-template-rows: auto auto; /* Adjust as needed */
     }
