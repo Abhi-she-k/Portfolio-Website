@@ -115,7 +115,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 375;
+  font-weight: 395;
   line-height: 1.2;
 }
 
@@ -8267,7 +8267,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 .rounded-pill {
@@ -10882,7 +10882,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #6B8A7A;
+  background: #DAD3BE;
 }
 
 .sidebar-nav {
@@ -10897,7 +10897,7 @@ html {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  background-color: 	#B7B597;
+  background-color: 	#254336;
   color: #fff;
   padding: 15px;
   transition: all 0.8s ease 0s;
@@ -10905,6 +10905,8 @@ html {
 
 .sidebar-nav li.sidebar-nav-item{
   margin:0;
+  /* border-bottom: #DAD3BE 1px solid; */
+  border-top: #DAD3BE 1px solid;
 }
 
 .sidebar-nav li a:hover {
@@ -10921,7 +10923,6 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
   background: rgba(52, 58, 64, 0.1);
   height: 80px;
   line-height: 50px;
@@ -10933,7 +10934,7 @@ html {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: #254336;
   text-decoration: none;
 }
 
