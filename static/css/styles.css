@@ -91,6 +91,83 @@
   }
 }
 
+/* my css */
+
+#fadein h1{
+	opacity: 1;
+	animation-name: fadeinopacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s
+}
+
+#fadein h3{
+	opacity: 0;
+	animation-name: fadeinopacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#about-btn{
+	opacity: 0;
+	animation-name: fadeinopacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+#socials{
+	opacity: 0;
+	animation-name: fadeinopacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeinopacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#skill-item{
+  animation: float 2s ease-in-out infinite;
+  transition: 0.5s;
+}
+
+#skill-item:hover{
+  border-radius: 50%;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+
+/* end of my css */
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -598,8 +675,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+  
 }
 
 .img-thumbnail {
@@ -11055,52 +11133,7 @@ footer.footer .social-link:hover {
   }
 }
 
-#fadein h1{
-	opacity: 1;
-	animation-name: fadeinopacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 3s
-}
 
-#fadein h3{
-	opacity: 0;
-	animation-name: fadeinopacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 3s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-#about-btn{
-	opacity: 0;
-	animation-name: fadeinopacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2.5s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards;
-}
-
-#socials{
-	opacity: 0;
-	animation-name: fadeinopacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeinopacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 
 .portfolio-item {
   display: block;
