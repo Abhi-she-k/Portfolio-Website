@@ -172,25 +172,6 @@
 	}
 }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(0px, -3px, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(0px, 3px, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(0px, -3px, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(0px, 3px, 0);
-  }
-}
-
-
 
 /* end of my css */
 
