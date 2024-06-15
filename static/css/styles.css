@@ -8341,11 +8341,13 @@ textarea.form-control-lg {
 }
 
 .rounded-custom {
-  border-radius: 50px !important;
+  border-radius: 50% !important;
 }
 
 .rounded-circle {
   border-radius: 10% !important;
+  width: 300px;
+  height: 300px;
 }
 
 .rounded-pill {
